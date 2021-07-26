@@ -9,6 +9,8 @@ const mobileMenu = () => {
 
 menu.addEventListener('click', mobileMenu)
 
+
+// Animation Text
 var textWrapper = document.querySelector('.hero__heading');
 textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
